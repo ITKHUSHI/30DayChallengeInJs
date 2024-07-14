@@ -1,0 +1,21 @@
+const num1=30;
+let num2=40;
+console.log(num1 , num2);
+ const num=1;
+ const bool=true;
+ const obj={1:1,2:2,3:2};
+ const array=[1,2,4,6];
+ const string="khushi";
+ console.log(typeof(num,bool , obj , array));
+ console.log(typeof(num));
+ console.log(typeof(bool));
+ console.log(typeof(obj));
+ console.log(typeof(array));
+ console.log(typeof(string));
+ num2=50;
+ console.log(num2);
+ console.log(num , typeof(num));
+ console.log(bool, typeof(bool));
+ console.log(obj, typeof(obj));
+ console.log(array ,typeof(array)); // array is special type of object in js
+ console.log(string , typeof(string));
