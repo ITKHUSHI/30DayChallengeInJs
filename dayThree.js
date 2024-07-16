@@ -118,3 +118,40 @@ function leapYearOrNot(year){
 	}
 }
 leapYearOrNot(100);
+  
+
+//  Flatting Array
+const result=[];
+function flatArray(array ,n){
+	for(let i=0;i<array.length;i++){
+           if(Array.isArray(array[i])){
+			if(n==0){
+				return result.push(array[i]);
+			}
+			flatArray(array[i] , n-1);
+		   }
+		   else{
+			result.push(array[i]);
+		   }
+		   
+	}
+	return result;
+}
+const ans=flatArray( [1,[2],[3,[4]]] , 2);
+console.log(ans);
+
+Array.prototype.myFlat=function(n){
+ 
+	function flatArrayUsingReduce(arr){
+		
+		const result=arr.reduce((acc,next)=>{
+			return acc.concat(Array.isArray(next)? n==1?next:flatArrayUsingReduce(next ,n-1):next);
+		},[])
+		return result;
+		}
+		return flatArrayUsingReduce(this);
+}
+ const ans2= ([1,2,[3,4,[5,6,[7,8,[9,10]]]]])
+console.log(ans2.myFlat());
+
+
