@@ -115,3 +115,32 @@ function getElementFormArray(arr,row,col){
 	console.log(arr[row][col]);
 }
 getElementFormArray([[1,4,6,8,3],[3,6,8,3,1]],1,3);
+
+
+ function throttel(cb , delay=1000){
+	let sholudWait =false;
+	let waitingArgs;
+	const timioutFunction =()=>{
+		if(waitingArgs=null){
+			sholudWait=false
+		}
+		else{
+			cb(...waitingArgs)
+				waitingArgs=null
+				setTimeout(timioutFunction,delay)
+			
+		}
+		
+	}
+	return (...args)=>{
+		if(sholudWait) {
+			waitingArgs=args
+			return;
+		}
+		cb(...args)
+		sholudWait=true;
+		setTimeout(timioutFunction,delay)
+	}
+
+}
+console.log(throttel("khushi"))
