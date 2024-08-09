@@ -1,0 +1,88 @@
+    /* Style the chat window */
+    #chat-window {
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 400px;
+      height: 300px;
+      overflow-y: auto;
+      background-color: #f9f9f9;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      font-family: Arial, sans-serif;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    /* Style individual chat messages */
+    #chat-window .message {
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin: 5px 0;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: slideIn 0.5s forwards;
+    }
+
+    /* Different colors for different users */
+    .user-message {
+      background-color: #e1ffc7;
+      color: #333;
+    }
+
+    .other-message {
+      background-color: #d1e7ff;
+      color: #333;
+      text-align: right;
+    }
+
+    /* Slide-in animation */
+    @keyframes slideIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Style the input area and button */
+    #input-area {
+      display: flex;
+      justify-content: space-between;
+      width: 400px;
+    }
+
+    #message-input, #username-input {
+      width: 85%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: Arial, sans-serif;
+    }
+
+    #send-button, #join-button {
+      width: 13%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: Arial, sans-serif;
+    }
+
+    #send-button:hover, #join-button:hover {
+      background-color: #45a049;
+    }
+
+    /* Hide chat input area initially */
+    #input-area {
+      display: none;
+    }
+
+    /* Centered username input area */
+    #username-area {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+  
