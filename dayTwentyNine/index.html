@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Socail medai</title>
+</head>
+<style>
+	#login-form input{
+		padding: 4px;
+		margin: 4px;
+	}
+	#login-form button{
+		padding: 4px;
+		margin: 2px;
+	}
+</style>
+<body>
+	<main>
+		<h1>Socail Media</h1>
+		
+			<div id="login-form">
+				<label for="user-name">Name</label>
+				<input type="text" id="user-name" >
+				<br>
+				<label for="password">Password</label>
+				<input type="text"  id="password">
+                 <br>
+				<button type="submit" id="login-btn">Login</button>
+			</div>
+		
+			<form id="post-form">
+				<label for="image"></label>
+				<input type="file" id="image">
+				<br>
+				<input type="text" id="caption">
+				<br>
+				<button id="post-btn">post</button>
+			</form>
+			<div id="postsContainer"></div>
+	</main>
+	<script src="./index.js"></script>
+</body>
+</html>

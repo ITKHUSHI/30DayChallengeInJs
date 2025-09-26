@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Bluetooth Headphones",
+        "price": 59.99,
+        "description": "High-quality wireless headphones with noise cancellation and up to 20 hours of battery life.",
+        "imageUrl": "https://example.com/images/headphones.jpg",
+        "quantity": 150
+    },
+    {
+        "id": 2,
+        "name": "Smartphone with 128GB Storage",
+        "price": 699.99,
+        "description": "Latest model smartphone with 128GB storage, dual cameras, and a long-lasting battery.",
+        "imageUrl": "https://example.com/images/smartphone.jpg",
+        "quantity": 75
+    },
+    {
+        "id": 3,
+        "name": "4K Ultra HD Smart TV",
+        "price": 899.99,
+        "description": "Experience stunning 4K visuals with this 55-inch Ultra HD Smart TV, featuring built-in streaming apps.",
+        "imageUrl": "https://example.com/images/smarttv.jpg",
+        "quantity": 30
+    },
+    {
+        "id": 4,
+        "name": "Gaming Laptop",
+        "price": 1199.99,
+        "description": "Powerful gaming laptop with a high-refresh-rate display, 16GB RAM, and 1TB SSD.",
+        "imageUrl": "https://example.com/images/laptop.jpg",
+        "quantity": 40
+    },
+    {
+        "id": 5,
+        "name": "Smartwatch with Fitness Tracker",
+        "price": 199.99,
+        "description": "Stay connected and monitor your health with this sleek smartwatch, featuring GPS and heart rate monitoring.",
+        "imageUrl": "https://example.com/images/smartwatch.jpg",
+        "quantity": 120
+    },
+    {
+        "id": 6,
+        "name": "Portable Bluetooth Speaker",
+        "price": 49.99,
+        "description": "Compact and durable portable speaker with powerful sound, perfect for on-the-go music.",
+        "imageUrl": "https://example.com/images/speaker.jpg",
+        "quantity": 200
+    },
+    {
+        "id": 7,
+        "name": "DSLR Camera with 18-55mm Lens",
+        "price": 549.99,
+        "description": "Capture stunning photos with this DSLR camera, featuring an 18-55mm lens and advanced autofocus.",
+        "imageUrl": "https://example.com/images/camera.jpg",
+        "quantity": 25
+    },
+    {
+        "id": 8,
+        "name": "Wireless Charging Pad",
+        "price": 29.99,
+        "description": "Conveniently charge your devices wirelessly with this sleek charging pad, compatible with most smartphones.",
+        "imageUrl": "https://example.com/images/charging-pad.jpg",
+        "quantity": 300
+    },
+    {
+        "id": 9,
+        "name": "Ergonomic Office Chair",
+        "price": 199.99,
+        "description": "Comfortable and adjustable office chair with lumbar support, perfect for long hours of work.",
+        "imageUrl": "https://example.com/images/office-chair.jpg",
+        "quantity": 60
+    },
+    {
+        "id": 10,
+        "name": "Electric Kettle",
+        "price": 29.99,
+        "description": "Boil water quickly with this 1.7-liter electric kettle, featuring auto shut-off and a sleek stainless steel design.",
+        "imageUrl": "https://example.com/images/kettle.jpg",
+        "quantity": 250
+    }
+]
